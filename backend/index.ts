@@ -6,7 +6,7 @@ const server = require('http').createServer(app)
 
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:8080',
+    origin: 'http://118.27.118.30	:8080',
     methods: ['*'],
   },
 })

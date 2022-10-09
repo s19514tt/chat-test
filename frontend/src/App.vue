@@ -15,7 +15,7 @@ const msgs = ref<Array<{
 }
 */
 
-const socket = io("http://localhost:3000/");
+const socket = io("http://118.27.118.30	:3000/");
 
 socket.on('msg', (msg) => {
   msgs.value.push(JSON.parse(msg))
